@@ -1,11 +1,29 @@
-h1{
-    color: red;
-    font-family: Arial;
-    margin: 0px;
+.team-logo {
+    width: 80px;
 }
 
-h2{
-    color: blue;
-    font-family: Arial;
-    margin: 0px
+.navbar {
+    background-color: rgba(18, 226, 125, 0.6) !important;
+    margin-bottom: 5px;
+    font-size: 1.5em !important;
 }
+
+
+body {
+    background-image: img src="images/background.jpg";
+    color: green;
+  }
+.leavesimgs img {
+    float:left;
+    width:200px;
+    height:200px;
+    margin:5px;
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+}
+
+.leavesimgs:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
