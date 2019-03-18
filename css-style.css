@@ -16,7 +16,10 @@
 
 /*trying background image*/
 .about_us{
-  background-image: url("images/banner.jpg");
+  background-image: url("images/banner3.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 
