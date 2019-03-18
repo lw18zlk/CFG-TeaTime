@@ -15,7 +15,9 @@
 }
 
 /*trying background image*/
-
+.about_us{
+  background-image: url("images/banner.jpg");
+}
 
 
 /*text format*/
@@ -62,10 +64,7 @@ body {
   font-family: "montserrat";
 }
 
-*{
-  margin: 8px;
-  padding: 8px;
-}
+
 
 
 
@@ -74,8 +73,6 @@ body {
 
 /*Images of the team*/
 body{
-  margin: 0;
-  padding: 0;
   font-family: 'JosefinSans'
 }
 
@@ -235,6 +232,20 @@ color: #C7C2C2;
   margin: 3px 0 0 5px;
   color: white;
   font-family: 'JosefinSans';
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
 
 /*responsive footer*/
