@@ -12,6 +12,7 @@
   background-color: rgba(18, 226, 125, 0.6) !important;
   margin-bottom: 5px;
   font-size: 1.5em !important;
+  font-family: 'Josefin Sans';
 }
 
 /*trying background image*/
@@ -115,7 +116,7 @@ body{
 }
 
 .p-name{
-  margin: 0 0;
+  margin: 10px 0;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -125,7 +126,7 @@ body{
   color: #4398db;
 }
 .p-sm {
-  margin-top: -30px;
+  margin-top: 15px;
 }
 
 .p-sm a{
@@ -159,7 +160,7 @@ body{
 	text-align: left;
   font-family: 'JosefinSans';
   font-type: 13px;
-	padding: 40px 9px;
+	padding: 30px 9px;
 	margin-top: 80px;
 }
 
@@ -215,12 +216,12 @@ color: #C7C2C2;
 }
 
 .fa {
-  padding: 20px;
+  padding: 15px;
   font-size: 30px;
-  width: 50px;
+  width: 45px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 10px 8px;
 }
 
 .fa-facebook {
