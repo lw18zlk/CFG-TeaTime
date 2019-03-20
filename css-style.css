@@ -14,8 +14,9 @@
 .about_us{
   background-image: url("images/tea_backgr.jpg");
   background-size: cover;
-  padding: 200px;
+  padding: 180px;
   margin: 10px;
+  margin-top: 0;
 }
 .about_us h1{
     font-family: "Josefin Sans", sans-serif;
