@@ -17,17 +17,16 @@
   padding: 180px;
   margin: 10px;
   margin-top: 0;
-  opacity:
 
 }
-.about_us h1{
+.text h1{
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
   }
-.about_us h1:after{
+.text h1:after{
     content: '';
     background: #333;
     display: block;
@@ -36,7 +35,7 @@
     margin: 10px auto;
     font-family: "Josefin Sans", sans-serif;
 }
-.about_us p{
+.text p{
     font-family: 'JosefinSans', arial;;
     font-size: 14px;
     text-align: justify;
