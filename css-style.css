@@ -1,0 +1,256 @@
+/*navigation bar*/
+.team-logo {
+  width: 80px;
+}
+
+.navbar {
+  background-color: rgba(18, 226, 125, 0.6) !important;
+  margin-bottom: 5px;
+  font-size: 1.5em !important;
+  font-family: 'Josefin Sans';
+}
+
+/*trying background image*/
+.about_us{
+  background-image: url("images/tea_backgr.jpg");
+  background-size: cover;
+  padding: 180px;
+  margin: 10px;
+  margin-top: 0;
+}
+.about_us h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+  }
+.about_us h1:after{
+    content: '';
+    background: #333;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+    font-family: "Josefin Sans", sans-serif;
+}
+.about_us p{
+    font-family: 'JosefinSans', arial;;
+    font-size: 14px;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 26px;
+}
+
+/*text format*/
+
+
+p {
+  font-family: 'Quicksand', arial;;
+  font-size: 14px;
+  font-style: normal;
+  text-align: justify;
+  word-spacing: 2px;
+  line-height: 26px;
+}
+
+
+
+/*Images of the team*/
+body{
+  font-family: 'JosefinSans'
+}
+
+.team-section{
+  background: #f1f1f1;
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+}
+
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.team-section h2{
+  font-size: 30px;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pe{
+  float: left;
+  width: calc(100% /3);
+  overflow: hidden;
+  padding: 5px 5px;
+  transition: 0.4s;
+}
+
+.pe:hover{
+  background: #ddd;
+
+}
+
+.pe img{
+  width: 140px;
+  height: 180px;
+}
+
+.p-name{
+  margin: 10px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.p-work{
+  font-style: italic;
+  color: #4398db;
+}
+.p-sm {
+  margin-top: 15px;
+}
+
+.p-sm a{
+  margin: 0 0;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+.p-sm a:hover{
+  transform: scale(1.3)
+}
+
+.p-sm a i{
+  color: #333;
+  line-height: 20px;
+}
+
+@media screen and (max-width:600px){
+  .pe{
+    width: 100%
+  }
+}
+
+/*footer*/
+.footer-distributed{
+	background-color: #2C2929;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+  font-family: 'JosefinSans' sans-serif;
+  font-type: 13px;
+	padding: 30px 9px;
+	margin-top: 10px;
+}
+
+.footer-distributed .footer-left p{
+	color: #ffffff;
+	font-size: 13px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:13px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 0px;
+	padding: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 0.5;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: -8px;
+	max-width: 288px;
+}
+
+.footer-left p a:hover{
+color: #C7C2C2;
+}
+
+.footer-right input{
+  height: 38px;
+  width: 150px;
+  padding: 1px;
+  border: none;
+  border-color: #cccccc;
+  color: #000;
+  font-family: 'JosefinSans';
+}
+
+.footer-right input btn {
+  padding: 5px 5px 5px;
+  margin: 3px 0 0 5px;
+  color: white;
+  font-family: 'JosefinSans';
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 8px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 80%;
+}
+
+.fa-twitter {
+  background: #3B5998;
+  color: white;
+  border-radius: 80%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 80%;
+}
+
+.fa-github {
+  background: #007bb5;
+  color: white;
+  border-radius: 80%;
+}
+
+/*responsive footer*/
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
