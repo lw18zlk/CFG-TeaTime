@@ -115,11 +115,11 @@ body{
   color: #4398db;
 }
 .p-sm {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .p-sm a{
-  margin: 0 0;
+  margin: 0 10px;
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -149,14 +149,14 @@ body{
 	text-align: left;
   font-family: 'JosefinSans' sans-serif;
   font-type: 13px;
-	padding: 30px 9px;
+	padding: 25px 5px;
 	margin-top: 10px;
 }
 
 .footer-distributed .footer-left p{
 	color: #ffffff;
 	font-size: 13px;
-	margin: 0;
+	margin: 5px;
 }
 
 /* Footer links */
@@ -165,7 +165,7 @@ body{
 	font-size:13px;
 	font-weight: bold;
 	color:  #ffffff;
-	margin: 0 0 0px;
+	margin: 0 2px 15px;
 	padding: 10px;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -179,7 +179,7 @@ body{
 
 .footer-distributed .footer-right{
 	float: right;
-	margin-top: -8px;
+	margin-top: -5px;
 	max-width: 288px;
 }
 
@@ -190,7 +190,7 @@ color: #C7C2C2;
 .footer-right input{
   height: 38px;
   width: 150px;
-  padding: 1px;
+  padding: 5px;
   border: none;
   border-color: #cccccc;
   color: #000;
@@ -198,8 +198,6 @@ color: #C7C2C2;
 }
 
 .footer-right input btn {
-  padding: 5px 5px 5px;
-  margin: 3px 0 0 5px;
   color: white;
   font-family: 'JosefinSans';
 }
@@ -213,6 +211,10 @@ color: #C7C2C2;
   margin: 10px 8px;
 }
 
+.fa:hover {
+  opacity: 0.7;
+}
+
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -220,7 +222,7 @@ color: #C7C2C2;
 }
 
 .fa-twitter {
-  background: #3B5998;
+  background: #55ACEE;
   color: white;
   border-radius: 80%;
 }
@@ -231,11 +233,12 @@ color: #C7C2C2;
   border-radius: 80%;
 }
 
-.fa-github {
-  background: #007bb5;
+.fa-instagram {
+  background: #4c5fd7;
   color: white;
   border-radius: 80%;
 }
+
 
 /*responsive footer*/
 
