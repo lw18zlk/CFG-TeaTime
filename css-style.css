@@ -12,48 +12,55 @@
 
 /*trying background image*/
 .about_us{
-  background-image: url("images/tea_backgr.jpg");
+  background: linear-gradient(rgba(237,237,237,0.2),rgba(237,237,237,0.2)), url("images/tea_backgr.jpg");
   background-size: cover;
-  padding: 180px;
-  margin: 10px;
-  margin-top: 0;
+  padding: 250px;
+  margin: 0;
+  margin-top: -3px;
 
 }
-.text h1{
+
+.content{
+  background: inherit;
+  width: 40%;
+  height: 20%;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  position: absolute;
+  top: 49%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.content h1{
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
-  }
-.text h1:after{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.content h1:after{
     content: '';
     background: #333;
     display: block;
     height: 3px;
-    width: 150px;
-    margin: 10px auto;
+    width: 220px;
+    margin: 5px 28px;
     font-family: "Josefin Sans", sans-serif;
 }
-.text p{
-    font-family: 'JosefinSans', arial;;
-    font-size: 14px;
-    text-align: justify;
+
+.paragraph-text p{
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 20px;
     word-spacing: 2px;
-    line-height: 26px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /*text format*/
-
-
-p {
-  font-family: 'Quicksand', arial;;
-  font-size: 14px;
-  font-style: normal;
-  text-align: justify;
-  word-spacing: 2px;
-  line-height: 26px;
-}
 
 
 
@@ -63,10 +70,8 @@ body{
 }
 
 .team-section{
-  background: #f1f1f1;
   text-align: center;
-  padding: 50px;
-  margin: 10px;
+  padding: 25px;
 }
 
 .inner-width{
@@ -84,6 +89,7 @@ body{
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .pe{
@@ -150,7 +156,7 @@ body{
   font-family: 'JosefinSans' sans-serif;
   font-type: 13px;
 	padding: 25px 5px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .footer-distributed .footer-left p{
