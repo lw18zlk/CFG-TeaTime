@@ -12,32 +12,49 @@
 
 /*trying background image*/
 .about_us{
-  background: linear-gradient(rgba(237,237,237,0.2),rgba(237,237,237,0.2)), url("images/tea_backgr.jpg");
+  background: url("images/tea_backgr.jpg");
   background-size: cover;
-  padding: 250px;
+  padding: 280px;
   margin: 0;
   margin-top: -3px;
+  background-attachment: fixed;
 
 }
 
 .content{
-  background: inherit;
-  width: 40%;
-  height: 20%;
-  border-radius: 10px;
+  width: 44%;
+  height: 25%;
+  border-radius: 15px;
   box-shadow: 0 0 12px rgba(0,0,0,0.2);
   position: absolute;
-  top: 49%;
-  left: 25%;
+  top: 62%;
+  left: 24%;
   transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid silver;
+  opacity: 0.7;
 }
+@media screen and (min-width: 601px) {
+  .content {
+    font-size: 80px;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    font-size: 30px;
+    width: 45%;
+  }
+}
+
 .content h1{
     font-family: "Josefin Sans", sans-serif;
-    font-size: 30px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 58px;
     margin-top: 40px;
 }
 .content h1:after{
@@ -45,8 +62,8 @@
     background: #333;
     display: block;
     height: 3px;
-    width: 220px;
-    margin: 5px 28px;
+    width: 350px;
+    margin: 5px 40px;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -54,10 +71,10 @@
     font-family: 'JosefinSans', sans-serif;
     font-size: 20px;
     word-spacing: 2px;
-    line-height: 50px;
+    line-height: 70px;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 /*text format*/
@@ -71,13 +88,14 @@ body{
 
 .team-section{
   text-align: center;
-  padding: 25px;
+  padding-bottom: 5px;
+  padding-top: -10px;
 }
 
 .inner-width{
   max-width: 1200px;
   margin: auto;
-  padding: 10px;
+  padding: 60px;
   overflow: hidden;
 }
 
@@ -94,10 +112,15 @@ body{
 
 .pe{
   float: left;
-  width: calc(100% /3);
+  width: 350px;
+  height: 350px;
   overflow: hidden;
-  padding: 5px 5px;
+  padding: 20px 10px;
   transition: 0.4s;
+  border-radius: 30px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  border: 1px solid white;
 }
 
 .pe:hover{
@@ -108,6 +131,7 @@ body{
 .pe img{
   width: 140px;
   height: 180px;
+  border-radius: 20%;
 }
 
 .p-name{
@@ -146,6 +170,7 @@ body{
   }
 }
 
+
 /*footer*/
 .footer-distributed{
 	background-color: #2C2929;
@@ -155,8 +180,8 @@ body{
 	text-align: left;
   font-family: 'JosefinSans' sans-serif;
   font-type: 13px;
-	padding: 25px 5px;
-	margin-top: 5px;
+	padding: 25px 10px;
+	margin-top: 2px;
 }
 
 .footer-distributed .footer-left p{
@@ -171,7 +196,7 @@ body{
 	font-size:13px;
 	font-weight: bold;
 	color:  #ffffff;
-	margin: 0 2px 15px;
+	margin: 3px 2px 15px;
 	padding: 10px;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -180,17 +205,17 @@ body{
 	display:inline-block;
 	line-height: 0.5;
 	text-decoration: none;
-	color:  inherit;
+	color: inherit;
 }
 
 .footer-distributed .footer-right{
 	float: right;
-	margin-top: -5px;
+	margin-top: -10px;
 	max-width: 288px;
 }
 
 .footer-left p a:hover{
-color: #C7C2C2;
+  color: #C7C2C2;
 }
 
 .footer-right input{
@@ -205,11 +230,11 @@ color: #C7C2C2;
 
 .footer-right input btn {
   color: white;
-  font-family: 'JosefinSans';
+  font-family: 'JosefinSans' sans-serif;
 }
 
 .fa {
-  padding: 15px;
+  padding: 13px;
   font-size: 20px;
   width: 45px;
   text-align: center;
@@ -218,7 +243,7 @@ color: #C7C2C2;
 }
 
 .fa:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .fa-facebook {
@@ -245,11 +270,9 @@ color: #C7C2C2;
   border-radius: 80%;
 }
 
-
 /*responsive footer*/
 
 @media (max-width: 600px) {
-
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-right{
 		text-align: center;
