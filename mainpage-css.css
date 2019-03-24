@@ -8,6 +8,11 @@
     font-size: 1.5em !important;
 }
 
+.carousel-inner {
+  background-color: lightgray;
+  height: 360px;
+}
+
 /*text format*/
 h1 {
   font-family: "Josefin Sans", sans-serif;
@@ -16,6 +21,7 @@ h1 {
   font-weight: 700;
   text-align: center;
   padding-top: 10px;
+  padding-botton: 30px;
 }
 h1:after{
   content: '';
@@ -35,7 +41,7 @@ h2 {
   text-align: center;
   display: inline-block;
   border-bottom: 4px solid;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 p {
