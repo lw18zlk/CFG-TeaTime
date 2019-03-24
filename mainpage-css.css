@@ -1,11 +1,18 @@
 .team-logo {
-    width: 80px;
+  width: 80px;
 }
 
 .navbar {
-    background-color: rgba(18, 226, 125, 0.6) !important;
-    margin-bottom: 5px;
-    font-size: 1.5em !important;
+  background-color: rgba(18, 226, 125, 0.6) !important;
+  margin-bottom: 5px;
+  font-size: 1.5em !important;
+}
+
+.carousel-inner {
+  background-color: lightgray;
+  background-size: cover;
+  margin: 0;
+  height: 300px;
 }
 
 /*text format*/
@@ -15,8 +22,10 @@ h1 {
   font-style: normal;
   font-weight: 700;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
+
 h1:after{
   content: '';
   background: #333;
@@ -48,16 +57,16 @@ p {
 }
 
 .leavesimgs img {
-    float:left;
-    width:200px;
-    height:200px;
-    margin:5px;
-    padding: 50px;
-    transition: transform .2s; /* Animation */
+  float:left;
+  width:200px;
+  height:200px;
+  margin:5px;
+  padding: 50px;
+  transition: transform .2s; /* Animation */
 }
 
 .leavesimgs:hover {
     -ms-transform: scale(1.5); /* IE 9 */
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
-  }
+}

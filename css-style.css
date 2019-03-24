@@ -142,6 +142,7 @@ body{
 }
 
 .p-work{
+  font-family: "Josefin Sans", sans-serif;
   font-style: italic;
   color: #4398db;
 }
@@ -268,6 +269,18 @@ body{
   background: #4c5fd7;
   color: white;
   border-radius: 80%;
+}
+
+.legal-info {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.footer-right {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.subscribe-bar::placeholder{
+     font-family: "Josefin Sans", sans-serif;
 }
 
 /*responsive footer*/
