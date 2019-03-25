@@ -24,6 +24,7 @@ h1 {
   padding-top: 10px;
   padding-botton: 30px;
 }
+
 h1:after{
   content: '';
   background: #333;
@@ -125,10 +126,6 @@ p {
       margin-top: 50px;
       margin-bottom: 5px;
   }
-
-  /*text format*/
-
-
 
   /*Images of the team*/
   body{
