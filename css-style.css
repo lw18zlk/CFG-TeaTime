@@ -12,47 +12,72 @@
 
 /*trying background image*/
 .about_us{
-  background-image: url("images/tea_backgr.jpg");
+  background: url("images/tea_backgr.jpg");
   background-size: cover;
-  padding: 180px;
-  margin: 10px;
-  margin-top: 0;
+  padding: 280px;
+  margin: 0;
+  margin-top: -3px;
+  background-attachment: fixed;
+
 }
-.about_us h1{
-    font-family: "Josefin Sans", sans-serif;
+
+.content{
+  width: 44%;
+  height: 25%;
+  border-radius: 15px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  position: absolute;
+  top: 62%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid silver;
+  opacity: 0.7;
+}
+@media screen and (min-width: 601px) {
+  .content {
+    font-size: 80px;
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
     font-size: 30px;
+    width: 45%;
+  }
+}
+
+.content h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     text-align: left;
-  }
-.about_us h1:after{
+    margin-left: 58px;
+    margin-top: 40px;
+}
+.content h1:after{
     content: '';
     background: #333;
     display: block;
     height: 3px;
-    width: 150px;
-    margin: 10px auto;
+    width: 350px;
+    margin: 5px 40px;
     font-family: "Josefin Sans", sans-serif;
 }
-.about_us p{
-    font-family: 'JosefinSans', arial;;
-    font-size: 14px;
-    text-align: justify;
+
+.paragraph-text p{
+    font-family: 'JosefinSans', sans-serif;
+    font-size: 20px;
     word-spacing: 2px;
-    line-height: 26px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
 }
 
 /*text format*/
-
-
-p {
-  font-family: 'Quicksand', arial;;
-  font-size: 14px;
-  font-style: normal;
-  text-align: justify;
-  word-spacing: 2px;
-  line-height: 26px;
-}
 
 
 
@@ -62,16 +87,15 @@ body{
 }
 
 .team-section{
-  background: #f1f1f1;
   text-align: center;
-  padding: 50px;
-  margin: 10px;
+  padding-bottom: 5px;
+  padding-top: -10px;
 }
 
 .inner-width{
   max-width: 1200px;
   margin: auto;
-  padding: 10px;
+  padding: 60px;
   overflow: hidden;
 }
 
@@ -83,14 +107,20 @@ body{
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .pe{
   float: left;
-  width: calc(100% /3);
+  width: 350px;
+  height: 350px;
   overflow: hidden;
-  padding: 5px 5px;
+  padding: 20px 10px;
   transition: 0.4s;
+  border-radius: 30px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  background-color: #ffffff;
+  border: 1px solid white;
 }
 
 .pe:hover{
@@ -101,6 +131,7 @@ body{
 .pe img{
   width: 140px;
   height: 180px;
+  border-radius: 20%;
 }
 
 .p-name{
@@ -115,14 +146,14 @@ body{
   color: #4398db;
 }
 .p-sm {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .p-sm a{
-  margin: 0 0;
+  margin: 0 10px;
   display: inline-block;
   width: 30px;
-  height: 30px;
+  height: 10px;
   transition: 0.4s;
 }
 .p-sm a:hover{
@@ -130,8 +161,7 @@ body{
 }
 
 .p-sm a i{
-  color: #333;
-  line-height: 20px;
+  line-height: 15px;
 }
 
 @media screen and (max-width:600px){
@@ -139,6 +169,7 @@ body{
     width: 100%
   }
 }
+
 
 /*footer*/
 .footer-distributed{
@@ -149,14 +180,14 @@ body{
 	text-align: left;
   font-family: 'JosefinSans' sans-serif;
   font-type: 13px;
-	padding: 30px 9px;
-	margin-top: 10px;
+	padding: 25px 10px;
+	margin-top: 2px;
 }
 
 .footer-distributed .footer-left p{
 	color: #ffffff;
 	font-size: 13px;
-	margin: 0;
+	margin: 5px;
 }
 
 /* Footer links */
@@ -165,7 +196,7 @@ body{
 	font-size:13px;
 	font-weight: bold;
 	color:  #ffffff;
-	margin: 0 0 0px;
+	margin: 3px 2px 15px;
 	padding: 10px;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -174,23 +205,23 @@ body{
 	display:inline-block;
 	line-height: 0.5;
 	text-decoration: none;
-	color:  inherit;
+	color: inherit;
 }
 
 .footer-distributed .footer-right{
 	float: right;
-	margin-top: -8px;
+	margin-top: -10px;
 	max-width: 288px;
 }
 
 .footer-left p a:hover{
-color: #C7C2C2;
+  color: #C7C2C2;
 }
 
 .footer-right input{
   height: 38px;
   width: 150px;
-  padding: 1px;
+  padding: 5px;
   border: none;
   border-color: #cccccc;
   color: #000;
@@ -198,19 +229,21 @@ color: #C7C2C2;
 }
 
 .footer-right input btn {
-  padding: 5px 5px 5px;
-  margin: 3px 0 0 5px;
   color: white;
-  font-family: 'JosefinSans';
+  font-family: 'JosefinSans' sans-serif;
 }
 
 .fa {
-  padding: 15px;
-  font-size: 30px;
+  padding: 13px;
+  font-size: 20px;
   width: 45px;
   text-align: center;
   text-decoration: none;
   margin: 10px 8px;
+}
+
+.fa:hover {
+  opacity: 0.5;
 }
 
 .fa-facebook {
@@ -220,7 +253,7 @@ color: #C7C2C2;
 }
 
 .fa-twitter {
-  background: #3B5998;
+  background: #55ACEE;
   color: white;
   border-radius: 80%;
 }
@@ -231,8 +264,8 @@ color: #C7C2C2;
   border-radius: 80%;
 }
 
-.fa-github {
-  background: #007bb5;
+.fa-instagram {
+  background: #4c5fd7;
   color: white;
   border-radius: 80%;
 }
@@ -240,7 +273,6 @@ color: #C7C2C2;
 /*responsive footer*/
 
 @media (max-width: 600px) {
-
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-right{
 		text-align: center;

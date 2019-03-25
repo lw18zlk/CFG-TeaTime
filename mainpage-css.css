@@ -6,6 +6,12 @@
     background-color: rgba(18, 226, 125, 0.6) !important;
     margin-bottom: 5px;
     font-size: 1.5em !important;
+    font-family: 'Josefin Sans';
+}
+
+.carousel-inner {
+  background-color: lightgray;
+  height: 360px;
 }
 
 /*text format*/
@@ -16,6 +22,7 @@ h1 {
   font-weight: 700;
   text-align: center;
   padding-top: 10px;
+  padding-botton: 30px;
 }
 h1:after{
   content: '';
@@ -35,7 +42,7 @@ h2 {
   text-align: center;
   display: inline-block;
   border-bottom: 4px solid;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 p {
@@ -61,3 +68,269 @@ p {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5);
   }
+
+  /*teasection*/
+  .content{
+    width: 44%;
+    height: 25%;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 62%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid silver;
+    opacity: 0.7;
+  }
+  @media screen and (min-width: 601px) {
+    .content {
+      font-size: 80px;
+      width: 45%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .content {
+      font-size: 30px;
+      width: 45%;
+    }
+  }
+
+  .content h1{
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 700;
+      text-align: left;
+      margin-left: 58px;
+      margin-top: 40px;
+  }
+  .content h1:after{
+      content: '';
+      background: #333;
+      display: block;
+      height: 3px;
+      width: 350px;
+      margin: 5px 40px;
+      font-family: "Josefin Sans", sans-serif;
+  }
+
+  .paragraph-text p{
+      font-family: 'JosefinSans', sans-serif;
+      font-size: 20px;
+      word-spacing: 2px;
+      line-height: 70px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 5px;
+  }
+
+  /*text format*/
+
+
+
+  /*Images of the team*/
+  body{
+    font-family: 'JosefinSans'
+  }
+
+  .team-section{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: -10px;
+  }
+
+  .inner-width{
+    max-width: 1200px;
+    margin: auto;
+    padding: 60px;
+    overflow: hidden;
+  }
+
+  .team-section h2{
+    font-size: 30px;
+    display: inline-block;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .pe{
+    float: left;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    padding: 20px 10px;
+    transition: 0.4s;
+    border-radius: 30px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    background-color: #ffffff;
+    border: 1px solid white;
+  }
+
+  .pe:hover{
+    background: #ddd;
+
+  }
+
+  .pe img{
+    width: 180px;
+    height: 180px;
+    border-radius: 20%;
+  }
+
+  .p-name{
+    margin: 10px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .p-work{
+    font-style: italic;
+    color: #4398db;
+  }
+  .p-sm {
+    margin-top: 10px;
+  }
+
+  .p-sm a{
+    margin: 0 10px;
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    transition: 0.4s;
+  }
+  .p-sm a:hover{
+    transform: scale(1.3)
+  }
+
+  .p-sm a i{
+    line-height: 15px;
+  }
+
+  @media screen and (max-width:600px){
+    .pe{
+      width: 100%
+    }
+  }
+
+  /*footer*/
+  .footer-distributed{
+  	background-color: #2C2929;
+  	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  	box-sizing: border-box;
+  	width: 100%;
+  	text-align: left !imporant;
+    font-family: 'JosefinSans' sans-serif;
+    font-type: 13px;
+  	padding: 25px 10px;
+  	margin-top: 2px;
+  }
+
+  .footer-distributed .footer-left p{
+  	color: #ffffff;
+  	font-size: 13px;
+  	margin: 5px;
+  }
+
+  /* Footer links */
+
+  .footer-distributed p.footer-links{
+  	font-size:13px;
+  	font-weight: bold;
+  	color:  #ffffff;
+  	margin: 3px 2px 15px;
+  	padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .footer-distributed p.footer-links a{
+  	display:inline-block;
+  	line-height: 0.5;
+  	text-decoration: none;
+  	color: inherit;
+  }
+
+  .footer-distributed .footer-right{
+  	float: right;
+  	margin-top: -10px;
+  	max-width: 288px;
+  }
+
+  .footer-left p a:hover{
+    color: #C7C2C2;
+  }
+
+  .footer-right input{
+    height: 38px;
+    width: 150px;
+    padding: 5px;
+    border: none;
+    border-color: #cccccc;
+    color: #000;
+    font-family: 'JosefinSans';
+  }
+
+  .footer-right input btn {
+    color: white;
+    font-family: 'JosefinSans' sans-serif;
+  }
+
+  .fa {
+    padding: 13px;
+    font-size: 20px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 8px;
+  }
+
+  .fa:hover {
+    opacity: 0.5;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 80%;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 80%;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 80%;
+  }
+
+  .fa-instagram {
+    background: #4c5fd7;
+    color: white;
+    border-radius: 80%;
+  }
+
+  /*responsive footer*/
+
+  @media (max-width: 600px) {
+  	.footer-distributed .footer-left,
+  	.footer-distributed .footer-right{
+  		text-align: center;
+  	}
+
+  	.footer-distributed .footer-right{
+  		float: none;
+  		margin: 0 auto 20px;
+  	}
+
+  	.footer-distributed .footer-left p.footer-links{
+  		line-height: 1.8;
+  	}
