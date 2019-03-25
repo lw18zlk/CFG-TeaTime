@@ -189,7 +189,8 @@ p {
 
   .p-work{
     font-style: italic;
-    color: #4398db;
+    font-family: "Josefin Sans", sans-serif;
+    color: gray;
   }
   .p-sm {
     margin-top: 10px;

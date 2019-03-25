@@ -139,7 +139,8 @@ body{
 
 .p-work{
   font-style: italic;
-  color: #4398db;
+  font-family: "Josefin Sans", sans-serif;
+  color: gray;
 }
 .p-sm {
   margin-top: 10px;
@@ -262,6 +263,10 @@ body{
   background: #4c5fd7;
   color: white;
   border-radius: 80%;
+}
+
+.info {
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /*responsive footer*/
